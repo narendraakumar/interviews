@@ -1,0 +1,168 @@
+Cosine similiraty
+Stemming and lemmatisation
+Word embedding
+Layers in object classification algorithms
+
+
+Find the duplicate char from this list in optimum
+a = [1,5,3,5,2]
+len_a = len(a)
+b = [1,2,3,4,5]
+b-a = 4
+
+seq = [1, 2, 3, 5, 4, 8, 7, 5]
+unique_seq = set(seq)
+n = max(seq)
+sum_all = n * (n + 1) / 2
+sum_unique = sum(unique_seq)
+duplicate_num = sum(seq) - sum_unique
+missing_num = int(sum_all - sum_unique)
+print("Duplicate number is:", duplicate_num)
+print("Missing number is:", missing_num)
+
+
+Write a classification model in PyTorch
+
+For given character rearrange such that make palindrome string
+
+Get max palindrome substring from substring
+
+For given series find the sorted sequence in optimum way
+
+What is the accuracy matrix for object detection model
+
+How masked rcnn works
+
+What is bagging and boosting
+
+How decision tree works at what parameter tree split and how
+
+How random forest works
+
+How random forest is different from bagging techniques
+
+What is boosting technique
+
+What is L1,L2 regularization
+
+What is R2 and adjusted r2
+
+What is roc curve
+
+What is the benchmark metric for classification algorithms
+
+What are the assumptions to build linear regression model
+
+Regex working
+
+SQL basic commnads for two tables
+
+How NN impacted by adding layers
+
+How to imporove accuracy of NN
+
+How to do model inferencing
+
+How to handel if two independent variable are corelated
+
+What is overfitting and underfitting and how to deal with this
+
+What is role of Bias weight in NN
+
+What is batchsize and epochs
+
+How are the weights are updating in back propagation
+
+what is convolution layer 
+
+what is pooling why we do it
+
+How opencv edge detection works
+
+how to clean image 
+
+How to reduce noise in image
+
+How salt-pepper algo works and what all kernels are being used
+
+How so we extract features in CNN
+
+What is difference in anchor box and bounding boxes
+
+How to find the shapes in opencv algoriths.
+
+What filter you use to sharp the images
+
+What filter you use to bright and contrast the image
+
+What  happen if I increase no. of layers in NN
+
+How softmax function works
+
+How activation function works and where to use which one
+
+What is gradient descent and how it works
+
+What are optimization function and how they works
+
+what is transfer learning
+
+How RPN layer works
+
+Why we use activation function in NN.(appart from adding non linearity and if we wont use activation function it will be simple perceptron model)
+
+what is loss function
+
+why we use MSE(to get convergense so that we can differentiate the equation)
+
+What is bias and variance
+
+What you will do to reduce variance (on data set operations)
+
+If you have lots of categorical variables mean alot of string data types in X the what you will use to convert into numerical data types.
+
+what portion of data you will take to test and train (10k samples and 1000k samples)
+
+What is data drift or model drift how will you  identify.
+
+What are the measures to find data drift.
+
+covariance
+
+explain encoding and decoding
+
+exlpain relu
+
+vanishing gradient and explode gradient
+
+what are the problems you  encounter during deployment
+ lstm ,gru nn
+ lstm ,rnn
+ how information flow in rnn
+ nn, rnn
+ 
+
+
+
+
+sql query
+
+any information about NLP and DL.
+
+able to write python code for palindrome sequence.
+
+about AUC, decision trees, random forest.  
+
+he has, to be fit to handle various use cases.
+
+worked on NLP problem
+
+ knowledge about any DL,NLP tasks.
+
+knowledge about NLP things and ML algorithms 
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+1. Find the spiral matrix
+2. get blooming flower matrix
+3. for a list of no. sor it in one iteration list of elements is [1,0,2,1,1,2,2,1,1,0,0,0]
+def sort_list(nums):
+    low = 0
+    mid = 0
+    high = len(nums) - 1
+
+    while mid <= high:
+        if nums[mid] == 0:
+            nums[low], nums[mid] = nums[mid], nums[low]
+            low += 1
+            mid += 1
+        elif nums[mid] == 1:
+            mid += 1
+        else:
+            nums[mid], nums[high] = nums[high], nums[mid]
+            high -= 1
+
+    return nums
+
+
+
+
+
+4. you are having list of sequential no. [1,2,3,5,4,8,7,5]. These are the no. of sequence from 1 to 8. How can you find the dumplicate no. and the missing no.
+
+seq = [1, 2, 3, 5, 4, 8, 7, 5]
+unique_seq = set(seq)
+n = max(seq)
+sum_all = n * (n + 1) / 2
+sum_unique = sum(unique_seq)
+duplicate_num = sum(seq) - sum_unique
+missing_num = int(sum_all - sum_unique)
+print("Duplicate number is:", duplicate_num)
+print("Missing number is:", missing_num)
+
+5. A company is repainting its office and would like to choose colors that work well together. They are presented with several various-priced calor options presented in a speafic arder so that each color complements the surrounding colors.
+The company has a limited budget and would like to select the greatest number of consecutive colons that fit within this budget Given the jprices of the colors and the company's budged what is the maximum number of colors that can be purchased for this repainting ordiect?
+
+6. A soclal network has n active users, numbered from 0 to n - 1.
+Users selectively friend one another to create groups of friends within the network.
+﻿﻿Two users, x and y, are direct friends if they friend each other on the network.
+﻿﻿Two users, x and z, are indirect friends if there exists some direct friend, y, common to both users x and z.
+Two users, x and y, belong to the same group if they are friends (either directly or indirectly) with each other. In other words, if user x is part of a group, then all of user x's friends and friends of I friends belong to the same group.
+﻿﻿The number of people in each group is given as an array of n integers, counts, where each counts[i/(0 si < n) denotes the total number of users in the group that use li belongs to.
+﻿﻿All of the users in a particular group must have minimal ID numbers. If there are 2 groups of 2 in the 4 users with IDs 0 through 3, they will be grouped as (0, 1}, {2, 3}.
+has context menu
+
+
+you have list of numbers 6,5,4,2,4,1,1,0. make a largest no. using these digits which is divisible by 6 and 5. you may have not to use all digits
+
+
+
+
+
