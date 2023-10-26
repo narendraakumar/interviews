@@ -1,0 +1,61 @@
+ZestIOT: Technical Lead-Python
+Required details alongwith job application.
+nareaero@gmail.com Switch account
+ 
+Draft saved
+* Indicates required question
+Email
+*
+nareaero@gmail.com
+Your Full Name
+*
+Narendra Kumar
+Phone Number
+*
+09958508703
+1)Walk us through a challenging technical problem you've encountered and solved recent times and how did you identify the root cause and how you implemented solution? 
+*
+We had faced alot of problem those were difficult to solve. If i talk about recent problem so there was issue that our deployed application was getting frequent restart after processing few pipelines and there were no error or traceback anywhere. To identify the issue we had setup machine motitoring tool like pixie and we monitor the cpu and memory uses and figured out the issue then we did profiling and code optimization for the entire application to realese the memory. 
+2)How would you optimize the performance of a slow database query in a high-traffic system?
+*
+This depends what kind of problem we are having it can due to no. of connections are high or indexing not implimented properly etc.
+lets take one scnarion there no. of connection are high mean connection are not reusable. So to overcome this issue what we can do we can Impliment singleton class to make is reusble.
+And if storage the issue we can use database strategy to make it faster.
+3)Explain the difference between asynchronous and synchronous programming. When would you use each approach?
+*
+synchronous programming is tightly coupled with the response it has to wait till get response and then go to next api. We can use there response time is very less like getting data from database.
+Asynchronous does not wait to complete first task it will move to next after first is initiated.
+this we should where task take unusual time to complete.
+4)How do you ensure code quality and maintainability and release process from Dev environment to UAT environment to Production environment?
+*
+we can impiment tools to ensure no duplicasy in code.tools for Static Code Analysis we can integrate to our CI/CD pipelines so that these tools can catch common coding mistakes and enforce coding standards. And we have to automate regression pipelines to ensure nothing breaks in production.
+Implement strategies like blue-green deployments, or rolling deployments to minimize downtime and risk during deployments.
+We can have a well-defined rollback plan in case an issue arises after a deployment. This ensures that you can quickly revert to a stable version.
+Implement monitoring solutions to track the application's health and performance in real-time. Set up alerts to notify the team of any anomalies.
+5)Describe your approach to scaling a web application to handle a sudden increase in users.
+*
+For scaling web application first we need to get performance matrixes for the applications and there might be room for improment to optimize the code or database. for example database if we scale the application we might be getting alot of queries at a time to support this we may have to optimize database queries, implement proper indexing, and consider database scaling options (sharding, replication) tpo handle increased load.
+then we may have to to vertical and horizontal scaling. 
+Have to impliment Asynchronous processing.
+Have to impliment caching mechanism.
+6)Give an example of how you've mentored junior developers to help them grow their technical skills.
+*
+Lets take a scenario I got high level story.So first with my team I will break it down then we allocate the story then we disccus the design together. And then I ask them to figure the implimentation edge cases. Then we discuss about the approach and start working on them independently. then I can have track of progress of the story and he also learn during this implimentation phase. And final we again can have review and the feedback that How are we progressing.
+7)How do you handle conflicts within a technical team? Can you provide an example?
+*
+To solve any conflict keep communicating with the person is essential. We must be clear and transparent in terms of work and if there is any issue we should resolve in one on one meeting so that this negativity wont spread in team.
+8)Describe your approach to delegating tasks and ensuring accountability within your team.
+*
+High level accountibility is on me but if I am working as team leader I have to make smaller task and allocate to every one and giving independent workspace and continues tracking the progress of tasks and taking the feedbacks would help to complete on time.
+9)Describe a situation where you had to collaborate with a cross-functional team to deliver a project successfully.
+*
+I had that alot I was working with different teams which was not technical but if you have clear communication and you acknowledge their work and you understand there issues also then it will never be a problem. The thing is as leader our end goal is one and we should be on same page there should be no gap in high level communication.
+10)Describe a recent technology or tool you learned and how you integrated it into your projects.
+*
+I have impliment the gpt turbo to our platform. Implimentation was easy but how and where we should use it will be always tricky.
+11)How do you ensure clear communication between technical and non-technical stakeholders in a project?
+*
+Understanding the product and have disscussion together in meetings and all the things should be documents to ensure no conflict within organization.
+Never submit passwords through Google Forms.
+This form was created inside of ARCHELONS. Report Abuse
+Google Forms
